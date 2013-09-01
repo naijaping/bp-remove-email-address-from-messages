@@ -12,8 +12,10 @@ Author:Prince Abiola Ogundipe
 */
 
 
-function omo_ibadan_remove_email_from_bp_private_messages_init() {
-	require( dirname( __FILE__ ) . '/bp-remove-email-address-from-messages ' );
+function omo_remove_email_from_BP_private_messages_init() {
+	require( dirname( __FILE__ ) .'/bp-remove-email-address-from-messages' );
 }
-add_action( 'bp_include', 'omo_ibadan_remove_email_from_bp_private_messages_init' );
+add_action( 'bp_include', 'omo_remove_email_from_BP_private_messages_init' );
+
+
 ?>

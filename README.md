@@ -1,6 +1,6 @@
 This small plugin will stop members from sending email address to each other using Buddypress private message. 
 
-It will  remove the email address automatically when the message is sent .
+It will  remove the email address automatically and replace it with [Warning !: E-mail Address Is Not Allowed In Private Messages ]when the message is sent .
 
 
 bp-remove-email-address-from-messages

@@ -2,7 +2,7 @@
 /*
 Plugin Name: Bp Remove Email Address From Messages
 Plugin URI: http://cityflavourmagazine.com
-Description: Stop members from sending email address to each other by the email address automatically when the message is sent.
+Description: Stop members from sending email address in private messages by removing it automatically when the message is sent.
 Version: 1.0
 Requires at least: WordPress 3.0 / BuddyPress 1.3
 Tested up to: WordPress 3.6  / BuddyPress 1.8.1 
@@ -28,7 +28,7 @@ if ( !function_exists( 'bp_core_install' ) ) {
  */ 
 
 function ibadan_remove_email_from_bp_private_messages($message){
-	$replacement = "[Warning !: E-mail Address Has Been Removed Because Of Fraud ]";
+	$replacement = "[Warning !: E-mail Address Is Not Allowed In Private Messages ]";
 	return preg_replace("/[^@\s]*@[^@\s]*\.[^@\s]*/", $replacement, $message);
 	
 }

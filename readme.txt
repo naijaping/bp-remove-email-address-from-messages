@@ -1,12 +1,11 @@
 === Buddypress List Newest Members widget ===
 
-Contributor: @naijaping
-Tags: buddypress, newest members widget
+Author: @naijaping
+Tags: buddypress, spam, remove email address, buddypress messages
 Requires at least: WordPress 3.0 BuddyPress 1.5
 Tested up to: WordPress 3.6  BuddyPress 1.8.1
 License: GNU/GPL 2
 Stable tag: 1.0
-
 
 == Description ==
 This small plugin will stop members from sending email address to each other by removing the email address automatically 

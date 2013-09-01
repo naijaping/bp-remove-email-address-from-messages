@@ -1,4 +1,6 @@
-NOTE: this is not finished yet, dont use it
+NOTE: There are more function to add in the next update
+
+Plan to add word filter as well.....
 
 
 

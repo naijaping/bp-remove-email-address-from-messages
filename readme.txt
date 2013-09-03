@@ -25,9 +25,9 @@ It will remove the email address automatically and replace it with [Warning !: E
 
 
 == Frequently Asked Questions ==
-1. Is this Plugin working?
+* Is this Plugin working?
 
-2  Answer: Yes it is.......
+* Answer: Yes it is.......
 
 == Notes ==
 
